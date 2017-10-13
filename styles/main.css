@@ -1,8 +1,54 @@
-.icon {
-    
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: #000;
+    color: #fff;
 }
 
-.icon-social {
-    width: 64px;
-    height: 64px;
+.icon {
+    display: block;
+    height: 256px;
+    width: 256px;
+    margin: 4px;
+}
+
+.link {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link:hover {
+    color: #fff;
+}
+
+.nav {
+    list-style: none inside;
+    padding: 10px;
+    margin: 0;
+}
+.nav__item {
+    padding: 8px;
+    display: inline-block;
+}
+.nav__item-link {
+    display: block;
+}
+
+.color1 {
+    background: #0d3c55;
+}
+.color2 {
+    background: #1395ba;
+}
+.color3 {
+    background: #a2b86c;
+}
+.color4 {
+    background: #ebc844;
+}
+.color5 {
+    background: #f16c20;
+}
+.color6 {
+    background: #c02e1d;
 }
