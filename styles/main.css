@@ -1,15 +1,17 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background: #000;
     color: #fff;
+    font-size: 16px;
 }
 
 .icon {
     display: block;
     height: 256px;
     width: 256px;
-    margin: 4px;
+    margin: 0.25rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0,0,0,0.5);
 }
 
 .link {
@@ -23,32 +25,38 @@ body {
 
 .nav {
     list-style: none inside;
-    padding: 10px;
+    padding: 0.5rem;
     margin: 0;
 }
 .nav__item {
-    padding: 8px;
+    padding: 0.5rem;
     display: inline-block;
+    font-size: 1.4rem;
 }
 .nav__item-link {
     display: block;
 }
 
+.site-name {
+    display: block;
+    padding: 0.5rem 0.25rem 0.25rem;
+}
+
 .color1 {
-    background: #0d3c55;
+    background: #666;
 }
 .color2 {
-    background: #1395ba;
+    background: #669;
 }
 .color3 {
-    background: #a2b86c;
+    background: #693;
 }
 .color4 {
-    background: #ebc844;
+    background: #f93;
 }
 .color5 {
-    background: #f16c20;
+    background: #f39;
 }
 .color6 {
-    background: #c02e1d;
+    background: #c30;
 }
