@@ -1,0 +1,47 @@
+.logo__ani {
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.logo__kh {
+    fill: #900;
+    animation-name: logo__ani-kh;
+}
+
+.logo__k {
+    fill: #c00;
+    animation-name: logo__ani-k;
+}
+
+.logo__h {
+    fill: #600;
+    animation-name: logo__ani-h;
+}
+
+@keyframes logo__ani-kh {
+    0% {fill: #999;}
+    20% {fill: #990;}
+    40% {fill: #090;}
+    60% {fill: #099;}
+    80% {fill: #909;}
+    100% {fill: #900;}
+}
+
+@keyframes logo__ani-k {
+    0% {fill: #bbb;}
+    20% {fill: #bb0;}
+    40% {fill: #0b0;}
+    70% {fill: #0bb;}
+    80% {fill: #b0b;}
+    100% {fill: #b00;}
+}
+
+@keyframes logo__ani-h {
+    0% {fill: #777;}
+    20% {fill: #770;}
+    40% {fill: #070;}
+    70% {fill: #077;}
+    80% {fill: #707;}
+    100% {fill: #700;}
+}

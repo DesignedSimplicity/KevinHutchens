@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="/styles/logo.css" ?>
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+    <path id="kh" class="logo__kh logo__ani" fill="#ccc" d="M 100 100 L 300 100 L 300 300 L 500 300 L 400 400 L 500 500 L 300 500 L 300 700 L 100 700 Z" />
+    <path id="ku" class="logo__k logo__ani" fill="#999" d="M 300 300 L 500 300 L 500 100 Z" />
+    <path id="khu" class="logo__kh logo__ani" fill="#ccc" d="M 700 100 L 500 300 L 500 100 Z" />
+    <path id="kl" class="logo__k logo__ani" fill="#999" d="M 300 500 L 500 500 L 500 700 Z" />
+    <path id="khl" class="logo__kh logo__ani" fill="#ccc" d="M 700 700 L 500 500 L 500 700 Z" />
+    <path id="h" class="logo__h logo__ani" fill="#666" d="M 400 400 L 700 100 L 700 700 Z" />
+</svg>
