@@ -9,6 +9,7 @@ body {
 .logo {
     width: 50%;
     margin: 0 auto;
+    max-width: 640px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -102,14 +103,4 @@ body {
 }
 .color6 {
     background: #c30;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
 }
