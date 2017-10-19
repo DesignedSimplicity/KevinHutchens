@@ -5,7 +5,7 @@
   "start_url": ".",
   "display": "browser",
   "background_color": "#000",
-  "description": "A simple Progressive Web App example",
+  "description": "A simple example of a Progressive Web App",
   "icons": [
     {
       "src": "apple-touch-icon.png",
