@@ -11,6 +11,7 @@ v0.5 - Gradients + hover effect on box
 v0.6 - SCSS/CSS vendor prefixed/minified
 v0.7 - Hover effect and migrated to HTTPS
 v0.8 - Added static caching to all assets
+v0.9 - Removed 8BrickArcade, Flickr, YouTube
 
 TODO
 * make KH clickable + add popup bio
