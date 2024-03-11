@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1>404</h1>
+<a href="/">Go to homepage...</a>
+<script>
+    window.onload = () => {
+        currentURL = window.location.href;
+        lowerCaseURL = currentURL.toLowerCase();
+        if (currentURL != lowerCaseURL) {
+            location.replace(lowerCaseURL);
+        }
+		else {
+			location.replace("https://" + window.location.hostname);
+		}
+    };
+</script>
+</body>
+</html>
